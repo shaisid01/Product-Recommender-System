@@ -79,8 +79,8 @@ documentation, we need to make sure our data frame has three columns: the user i
 </br>KNNBaseline:A basic collaborative filtering algorithm taking into account a baseline rating.
 </br>NMF:A collaborative filtering algorithm based on Non-negative Matrix Factorization.
 </br>Co-clustering:A collaborative filtering algorithm based on co-clustering.
-</br>SVD:When baselines are not used, this is equivalent to Probabilistic Matrix Factorization, it is as popularized by Simon Funk during the Netflix Prize
-Metrics used are rmse and mae. And here is the result.
+</br>SVD:When baselines are not used, this is equivalent to Probabilistic Matrix Factorization, it is as popularized by Simon Funk during the Netflix Prize.
+</br>Metrics used are rmse and mae. And here is the result.
 ![image](https://user-images.githubusercontent.com/87315447/160265912-5cce40b4-566c-42ed-b309-e9006715eca2.png)
 </br>BaselineOnly algorithm has given the best rmse. So I used this model to get the product recommendation based on ratings.
 #### Top 10 best predictions
