@@ -81,7 +81,7 @@ documentation, we need to make sure our data frame has three columns: the user i
 </br>Co-clustering:A collaborative filtering algorithm based on co-clustering.
 </br>SVD:When baselines are not used, this is equivalent to Probabilistic Matrix Factorization, it is as popularized by Simon Funk during the Netflix Prize.
 </br>Metrics used are rmse and mae. And here is the result.
-![image](https://user-images.githubusercontent.com/87315447/160265912-5cce40b4-566c-42ed-b309-e9006715eca2.png)
+</br>![image](https://user-images.githubusercontent.com/87315447/160265912-5cce40b4-566c-42ed-b309-e9006715eca2.png)
 </br>BaselineOnly algorithm has given the best rmse. So I used this model to get the product recommendation based on ratings.
 #### Top 10 best predictions
 ![image](https://user-images.githubusercontent.com/87315447/160265923-afb036ff-2506-4e45-b42a-d1e8a1c66cc1.png)
